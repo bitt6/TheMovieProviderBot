@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'Ziplinker.net'))
-STREAM_API = (environ.get('STREAM_API', '55a9b63bafac2a44eb704f938b7ad572057b6fa6'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'http://instantlinks.co'))
+STREAM_API = (environ.get('STREAM_API', '21bad4e94a15dcbfc685f8bf5a6d37a7da13df15'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Notificationsactr/9'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
