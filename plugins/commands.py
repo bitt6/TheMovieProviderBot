@@ -224,11 +224,9 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
+                            
                             [
-                                InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
-                            ],
-                            [
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/HP_MOVIES_WORLD') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/+kAh07hUHdt9mZjFl') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -408,15 +406,13 @@ async def start(client, message):
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
             [
-             [
-              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
-             ],
-             [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/HP_MOVIES_WORLD') #Don't change anything without contacting me @LazyDeveloperr
-             ]
-            ]
-        )
-    )
+                            
+                            [
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/+kAh07hUHdt9mZjFl') #Don't change anything without contacting me @LazyDeveloperr
+                            ]
+                        ]
+                    )
+                )
             filesarr.append(msg)
         k = await client.send_sticker(sticker="CAACAgUAAxkBAAEKRaNk_u0HQXLjZfHrRgkjcseNmvrK_gACJwEAAsiUZBTiPWKAkUSmmjAE")
         await asyncio.sleep(600)
@@ -485,15 +481,13 @@ async def start(client, message):
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
             [
-             [
-              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
-             ],
-             [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/HP_MOVIES_WORLD') #Don't change anything without contacting me @LazyDeveloperr
-             ]
-            ]
-        )
-    )
+                            
+                            [
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/+kAh07hUHdt9mZjFl') #Don't change anything without contacting me @LazyDeveloperr
+                            ]
+                        ]
+                    )
+                )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = '' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
@@ -545,15 +539,13 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         reply_markup=InlineKeyboardMarkup(
             [
-             [
-              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
-             ],
-             [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/HP_MOVIES_WORLD') #Don't change anything without contacting me @LazyDeveloperr
-             ]
-            ]
-        )
-    )
+                            
+                            [
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/+kAh07hUHdt9mZjFl') #Don't change anything without contacting me @LazyDeveloperr
+                            ]
+                        ]
+                    )
+                )
     btn = [[
         InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
     ]]
